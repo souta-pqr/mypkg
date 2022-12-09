@@ -12,11 +12,14 @@
 * `git clone <リポジトリのURL>`
 
 ## 簡単な使い方
-* `ros2 run mypkg talker` と `ros2 run mypkg listener` を二つの端末を立ち上げて行う。
+* `ros2 run mypkg talker`,`ros2 run mypkg listener` のコマンドを二つの端末を立ち上げて行う。
 	* 実行結果(延々と続くため、最初の3行を表示している)<br>
       →[INFO] [1670533199.245508900] [listener]: Listen: 0<br>
-        [INFO] [1670533199.736696900] [listener]: Listen: 1<br>
-        [INFO] [1670533200.236635100] [listener]: Listen: 2<br>
+          [INFO] [1670533199.736696900] [listener]: Listen: 1<br>
+          [INFO] [1670533200.236635100] [listener]: Listen: 2<br>
+
+## トピックと型の名前について
+* /countupというトピックで、型は16ビット符号付き整数。
 
 ## LICENSE・使用しているコードについて
 * このソフトウェアパッケージは、3条項ライセンスの下、再頒布および使用が許可されます。
