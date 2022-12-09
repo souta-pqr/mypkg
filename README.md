@@ -12,7 +12,9 @@
 * `git clone <リポジトリのURL>`
 
 ## 簡単な使い方
-* `ros2 run mypkg talker`,`ros2 run mypkg listener` のコマンドを二つの端末を立ち上げて行う。
+### 二つあります
+* `ros2 run mypkg talker`,`ros2 run mypkg listener` を二つの端末を立ち上げて行う。
+* `ros2 launch mypkg talk_listen.launch.py`を端末で行う。 
 	* 実行結果(延々と続くため、最初の3行を表示している)<br>
       [INFO] [1670533199.245508900] [listener]: Listen: 0<br>
       [INFO] [1670533199.736696900] [listener]: Listen: 1<br>
