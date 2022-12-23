@@ -18,10 +18,11 @@
 
 * ```ros2 launch mypkg talk_listen.launch.py```を端末で行います。 
 	* 実行結果(延々と続くため、最初の3行を表示しています)<br>
-      [INFO] [1670533199.245508900] [listener]: Listen: 0<br>
-      [INFO] [1670533199.736696900] [listener]: Listen: 1<br>
-      [INFO] [1670533200.236635100] [listener]: Listen: 2<br>
-
+```
+      [INFO] [1670533199.245508900] [listener]: Listen: 0
+      [INFO] [1670533199.736696900] [listener]: Listen: 1
+      [INFO] [1670533200.236635100] [listener]: Listen: 2
+```
 ## トピックと型の名前について
 * /countupというトピックで、型は16ビット符号付き整数。
 
