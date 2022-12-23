@@ -12,9 +12,6 @@
 ## 動作確認済み環境
 * ubuntu 22.04
 
-## 起動する手順
-* `git clone <リポジトリのURL>`
-
 ## 簡単な使い方
 ### 二つあります。(どちらも結果は同じものです)
 * `ros2 run mypkg talker`,`ros2 run mypkg listener` を二つの端末を立ち上げて行います。
