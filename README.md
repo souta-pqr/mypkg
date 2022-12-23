@@ -14,15 +14,8 @@
 
 ## 簡単な使い方
 ### 二つあります。(どちらも結果は同じものです)
-*
-```
-ros2 run mypkg talker
-```
-,
-```
-ros2 run mypkg listener
-```
- を二つの端末を立ち上げて行います。
+* ```ros2 run mypkg talker```,```ros2 run mypkg listener```を二つの端末を立ち上げて行います。
+
 * ```ros2 launch mypkg talk_listen.launch.py```を端末で行います。 
 	* 実行結果(延々と続くため、最初の3行を表示しています)<br>
       [INFO] [1670533199.245508900] [listener]: Listen: 0<br>
