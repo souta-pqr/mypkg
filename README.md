@@ -1,4 +1,4 @@
-# ROS2を用いての、ノード間の連携
+# ROS2のパッケージを用いての、ノード間の連携
 
 ![test](https://github.com/souta-pqr/mypkg/actions/workflows/test.yml/badge.svg)
 
@@ -14,8 +14,8 @@
 
 ## 簡単な使い方
 ### 二つあります。(どちらも結果は同じものです)
-* `ros2 run mypkg talker`,`ros2 run mypkg listener` を二つの端末を立ち上げて行います。
-* `ros2 launch mypkg talk_listen.launch.py`を端末で行います。 
+* ```ros2 run mypkg talker`,`ros2 run mypkg listener``` を二つの端末を立ち上げて行います。
+* ```ros2 launch mypkg talk_listen.launch.py```を端末で行います。 
 	* 実行結果(延々と続くため、最初の3行を表示しています)<br>
       [INFO] [1670533199.245508900] [listener]: Listen: 0<br>
       [INFO] [1670533199.736696900] [listener]: Listen: 1<br>
