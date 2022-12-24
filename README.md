@@ -1,4 +1,4 @@
-# ノード間で行うためのROS2のパッケージ
+# ノード間で決められた値を出力するためのROS2のパッケージ
 
 ![test](https://github.com/souta-pqr/mypkg/actions/workflows/test.yml/badge.svg)
 
@@ -7,7 +7,6 @@
 
 ## 必要なソフトウェア
 * python
-  * テスト済み:3.7～3.10
 
 ## 動作確認済み環境
 * ubuntu 22.04
