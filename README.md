@@ -1,4 +1,4 @@
-# ROS2のパッケージを用いての、ノード間の連携
+# ノード間の連携を行うROS2のパッケージ
 
 ![test](https://github.com/souta-pqr/mypkg/actions/workflows/test.yml/badge.svg)
 
